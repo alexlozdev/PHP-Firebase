@@ -1,7 +1,7 @@
 # PHP-MySQL-Firebase
 This is simple bootstrap web site written by php.
 
-![Sceenshot](images/scree3.png)
+![Sceenshot](images/screen3.png)
 
 It uses MySql and Firebase.
 Firebase supports Android , iOS and Unity, React but not Php.
