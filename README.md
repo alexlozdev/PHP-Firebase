@@ -19,31 +19,31 @@ This is no laravel but pure php web site.
 - how to connect to firebase realtime db <br>
   require_once __DIR__ . '/vendor/autoload.php';<br>
   
-  use Kreait\Firebase\Factory;
-  use Kreait\Firebase\ServiceAccount;
+  use Kreait\Firebase\Factory; <br>
+  use Kreait\Firebase\ServiceAccount; <br>
   
   //. get reference to firebase realtime database <br>
-  $serviceAccount = ServiceAccount::fromJsonFile(__DIR__ . '/groupmsgapp-4507d-c26e80f7117a.json'); // add the authentication file to your php project
-  $firebase = (new Factory)->withServiceAccount($serviceAccount)->create();
-  $this->database = $firebase->getDatabase();
+  $serviceAccount = ServiceAccount::fromJsonFile(__DIR__ . '/groupmsgapp-4507d-c26e80f7117a.json'); // add the authentication file to your php project <br>
+  $firebase = (new Factory)->withServiceAccount($serviceAccount)->create(); <br>
+  $this->database = $firebase->getDatabase(); <br>
   
-  //. read child
-  $reference = $this->database->getReference($this->db_group)
-  $snapshotGroup = $reference->getSnapshot();        //
-  $groups = $snapshotGroup->getValue();  //
+  //. read child <br>
+  $reference = $this->database->getReference($this->db_group) <br>
+  $snapshotGroup = $reference->getSnapshot();  <br>
+  $groups = $snapshotGroup->getValue();  <br>
   
-  //. write child
-  $data = array();
-  $data["name"] = $group;  
-  $path = $this->db_group.'/'.$custom_child;
-  $reference = $this->database->getReference($path);
-  $postKey= $reference->push($data);
+  //. write child <br>
+  $data = array(); <br>
+  $data["name"] = $group;   <br>
+  $path = $this->db_group.'/'.$custom_child; <br>
+  $reference = $this->database->getReference($path); <br>
+  $postKey= $reference->push($data); <br>
   
-  //. remove child and subchild
-  $reference = $this->database->getReference($path);
-  $reference->remove();
+  //. remove child and subchild <br>
+  $reference = $this->database->getReference($path); <br>
+  $reference->remove(); <br>
   
-You can see the more details via https://firebase-php.readthedocs.io/en/stable/setup.html
+You can see the more details via https://firebase-php.readthedocs.io/en/stable/setup.html <br>
 
 Enjoy it. 
  
