@@ -1,5 +1,5 @@
 # PHP-MySQL-Firebase
-This is simple bootstrap web site written by php.
+This is simple bootstrap web site written by php. it retrieves the data from Firebase and MySql.
 
 ![Sceenshot](images/screen3.png)
 
