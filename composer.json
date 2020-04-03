@@ -1,0 +1,8 @@
+{
+    "name": "andrei/firebase-php-1",
+    "type": "project",    
+    "minimum-stability": "dev",
+    "require": {
+        "kreait/firebase-php": "4.35"
+    }
+}

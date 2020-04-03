@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "groupmsgapp-4507d",
+  "private_key_id": "c26e80f7117a07268075d0701cc68b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBKcwggSjAgEAAoIBAQC2JxVTj9gSPHPO\nwMaA5uR+X0HWKRu3+59LvnsSQWffcVi+cyIHaPTcrGPb91WRSGyycX1VXd\n5Yidjyt+iLLJRvpY9uDKVDcLmOyXaVM7Q+KiF9ipQKYkSSq7fCujpTdl+0dPZb73\nNo3cy7qgUC/ORByeWfDEQHBwyyGYBlJDfCaAGDEkbqd4KcAnuQ8qGldiZejyianN\neZWYMgj1TWTP5q4pHsJHx+vz6bWZkcdtte7ksnN92HT4ymID7UXz7hUhQ3nj3X3C\nmK8C3S5s7wek3NjHPZiXPKrYcgzCQrmFqXLD68Amuzb8dgPfnj8EK704Iwf4xk5G\nXj8hJtThAgMBAAECggEAAls2oPenKzqOTPTVcd7DplzSYwgR/C/9H/3ufbfFavIV\nPFDOKwCE+OTOnLVKd1WXX8ggxkryB6Cs3FnBx8Y4WgoD/St0xZpKMFr2FuJRGaGm\n8cH8m99Lit+gVMvVgXUnTge9U/EQbDMt2zqZqBXClyqHt1cjjduDjELPXDfysxSB\niWVgCNhMvDkar93/pysod6IHpLUxTG+6w7ZOrOhi+5q4I8z+ppraj19VyYxw+T3x\nEE3ueTtvSEvLoIpwBnY1Hekj0jdWG+NpGHDJC4ejX7ATSwUdk4+lgzbAmA7mK9Ik\np8QtyiSMRBpxXpueeCvmazf5bfueFdGOfk/fw2YxeQKBgQD7E64Xy6L1AB3mW183\ndfCGXZCm6FsrSpTYl6HHXflmEUGVL3bkrduSBfNhqwJsz7ecdICk8lQm2BJDn1y7\nbXBUjQsq+Ct02+Z3BRogiRW8j3II7Mr2/uCjIEf1QRzG8sHuuPlkQzjmRn+mXzS7\n8Jr7iepKV9uiBcJfRjd6ORRKtwKBgQC5uW1mJDf2Q27PcpxgneCIfjZMAFUFxSvh\n0byC+RQZEBbCUT9WDNNPhrXKxdkrSp2usMV182cRnFKYuLIgcdiqo5rK0PkNyZHO\nN4ZLaURAv2QSYpc86ACRjly180instJylfKfjPGaiOsQzN5QQCnfBXGidyWf5UzZ\nGO+WWtUlJwKBgFWFX5BlYY1YS9byGp22g4YRCrt/e8ZkMg0QoR9aiB/XEuKw9ytv\neNHlSwBikoHjwuP83vDQRg+xG4+DEcAZx+BU5o/tVkgIuxihWUPpzcibh7k4hu3Y\n5UVLMpd8ZUPy3lHlGbWoHBJ7wvE1jq3Rh8jUMkS+ZmZq1clEDpOIK7xDAoGBAKvM\ncf0s/bNIl2VAAJWDFSNNlM5i9EMdK8V9LOL+ou+4KUVgwLTJsmJ7GwjSUVwxboEc\ntduw5yOsNd9d4jAO/7yBEHwSKH/veHeIdyqk2mUGZfx3xKyrc3MxfGM3A3tU+ETU\nnhWm3Ar2InNs/yy+3byWnZIKovwwsRCVd3Le3RG7AoGAZeVxjPGe83/SFxe7s1Ae\nJsBZcp0IwHGlJO3L0IRSuw/SyAqvNEk6rwPvFYuVaFOHxN9wCskxrh6xBIC3HbHl\nO+ufhwTarJWIkFOct2sWyUxqWvONF9nhJ5aDHpER9eKccSO8AGbSgJdcZIXU6rjE\nMi34H1oOsbOGbP1uVnzRdFo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "groupmsgapp-d@appspot.gserviceaccount.com",
+  "client_id": "116426123349497008077",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/groupmsgapp-4507d%40appspot.gserviceaccount.com"
+}
