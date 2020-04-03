@@ -23,9 +23,9 @@ This is no laravel but pure php web site.
   $this->database = $firebase->getDatabase();
   
   //. read child
-  $reference = $this->database->getReference($this->db_group);
-  $snapshotGroup = $reference->getSnapshot();        
-  $groups = $snapshotGroup->getValue();
+  $reference = $this->database->getReference($this->db_group);  //
+  $snapshotGroup = $reference->getSnapshot();        //
+  $groups = $snapshotGroup->getValue();  //
   
   //. write child
   $data = array();
