@@ -47,5 +47,12 @@ This is no laravel but pure php web site.
   
 You can see the more details via https://firebase-php.readthedocs.io/en/stable/setup.html <br>
 
+* you can get a error - php setting and CA info
+  // php firebase admin sdk error fix <br>
+  https://firebase-php.readthedocs.io/en/stable/troubleshooting.html#curl-error-xx <br>
+  1. download the pem
+  2. replace the pem file
+  3. set the path in the php.ini file
+
 Enjoy it. 
  
