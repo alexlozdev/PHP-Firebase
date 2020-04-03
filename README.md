@@ -16,8 +16,13 @@ This is no laravel but pure php web site.
 - Add the authentication json to your project 
   (how to get the authentication json file? please lookat this video https://www.youtube.com/watch?v=3ACxp56r7ag)
   
-- how to connect to firebase realtime db
-  //. get reference to firebase realtime database
+- how to connect to firebase realtime db <br>
+  require_once __DIR__ . '/vendor/autoload.php';<br>
+  
+  use Kreait\Firebase\Factory;
+  use Kreait\Firebase\ServiceAccount;
+  
+  //. get reference to firebase realtime database <br>
   $serviceAccount = ServiceAccount::fromJsonFile(__DIR__ . '/groupmsgapp-4507d-c26e80f7117a.json'); // add the authentication file to your php project
   $firebase = (new Factory)->withServiceAccount($serviceAccount)->create();
   $this->database = $firebase->getDatabase();
