@@ -23,7 +23,7 @@ This is no laravel but pure php web site.
   $this->database = $firebase->getDatabase();
   
   //. read child
-  $reference = $this->database->getReference($this->db_group);  //
+  $reference = $this->database->getReference($this->db_group)
   $snapshotGroup = $reference->getSnapshot();        //
   $groups = $snapshotGroup->getValue();  //
   
